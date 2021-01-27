@@ -12,7 +12,7 @@ octokit.git.createBlob({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -86,7 +86,7 @@ octokit.git.createCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -181,7 +181,7 @@ octokit.git.createRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -260,7 +260,7 @@ octokit.git.createTag({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -336,7 +336,7 @@ octokit.git.createTree({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -408,7 +408,7 @@ octokit.git.deleteRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -449,7 +449,7 @@ octokit.git.getBlob({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -515,7 +515,7 @@ octokit.git.getCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -556,7 +556,7 @@ octokit.git.getRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -622,7 +622,7 @@ octokit.git.getTag({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -661,7 +661,7 @@ octokit.git.getTree({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -709,7 +709,7 @@ octokit.git.listMatchingRefs({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -757,7 +757,7 @@ octokit.git.updateRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

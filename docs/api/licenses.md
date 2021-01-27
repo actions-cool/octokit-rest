@@ -10,7 +10,7 @@ octokit.licenses.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -35,7 +35,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/lice
 octokit.licenses.getAllCommonlyUsed();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -72,7 +72,7 @@ octokit.licenses.getForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

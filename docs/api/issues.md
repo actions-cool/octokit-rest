@@ -14,7 +14,7 @@ octokit.issues.addAssignees({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -57,7 +57,7 @@ octokit.issues.addLabels({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -105,7 +105,7 @@ octokit.issues.checkUserCanBeAssigned({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -144,7 +144,7 @@ octokit.issues.create({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -207,7 +207,7 @@ octokit.issues.createComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -249,7 +249,7 @@ octokit.issues.createLabel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -296,7 +296,7 @@ octokit.issues.createMilestone({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -348,7 +348,7 @@ octokit.issues.deleteComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -385,7 +385,7 @@ octokit.issues.deleteLabel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -420,7 +420,7 @@ octokit.issues.deleteMilestone({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -469,7 +469,7 @@ octokit.issues.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -506,7 +506,7 @@ octokit.issues.getComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -543,7 +543,7 @@ octokit.issues.getEvent({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -578,7 +578,7 @@ octokit.issues.getLabel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -613,7 +613,7 @@ octokit.issues.getMilestone({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -655,7 +655,7 @@ request id, use the "[List pull requests](https://docs.github.com/rest/reference
 octokit.issues.list();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -739,7 +739,7 @@ octokit.issues.listAssignees({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -783,7 +783,7 @@ octokit.issues.listComments({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -836,7 +836,7 @@ octokit.issues.listCommentsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -893,7 +893,7 @@ octokit.issues.listEvents({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -939,7 +939,7 @@ octokit.issues.listEventsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -981,7 +981,7 @@ octokit.issues.listEventsForTimeline({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1031,7 +1031,7 @@ request id, use the "[List pull requests](https://docs.github.com/rest/reference
 octokit.issues.listForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1107,7 +1107,7 @@ octokit.issues.listForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1187,7 +1187,7 @@ octokit.issues.listForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1274,7 +1274,7 @@ octokit.issues.listLabelsForMilestone({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1320,7 +1320,7 @@ octokit.issues.listLabelsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1362,7 +1362,7 @@ octokit.issues.listLabelsOnIssue({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1408,7 +1408,7 @@ octokit.issues.listMilestones({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1469,7 +1469,7 @@ octokit.issues.lock({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1515,7 +1515,7 @@ octokit.issues.removeAllLabels({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1554,7 +1554,7 @@ octokit.issues.removeAssignees({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1599,7 +1599,7 @@ octokit.issues.removeLabel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1641,7 +1641,7 @@ octokit.issues.setLabels({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1685,7 +1685,7 @@ octokit.issues.unlock({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1724,7 +1724,7 @@ octokit.issues.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1795,7 +1795,7 @@ octokit.issues.updateComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1837,7 +1837,7 @@ octokit.issues.updateLabel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1887,7 +1887,7 @@ octokit.issues.updateMilestone({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

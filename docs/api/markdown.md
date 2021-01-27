@@ -10,7 +10,7 @@ octokit.markdown.render({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -51,7 +51,7 @@ octokit.markdown.renderRaw({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

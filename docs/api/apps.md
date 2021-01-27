@@ -15,7 +15,7 @@ octokit.apps.addRepoToInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -50,7 +50,7 @@ octokit.apps.checkToken({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -92,7 +92,7 @@ octokit.apps.createContentAttachment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -131,7 +131,7 @@ octokit.apps.createFromManifest({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -162,7 +162,7 @@ octokit.apps.createInstallationAccessToken({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -359,7 +359,7 @@ octokit.apps.deleteAuthorization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -397,7 +397,7 @@ octokit.apps.deleteInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -428,7 +428,7 @@ octokit.apps.deleteToken({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -464,7 +464,7 @@ You must use a [JWT](https://docs.github.com/apps/building-github-apps/authentic
 octokit.apps.getAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -482,7 +482,7 @@ octokit.apps.getBySlug({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -513,7 +513,7 @@ octokit.apps.getInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -546,7 +546,7 @@ octokit.apps.getOrgInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -578,7 +578,7 @@ octokit.apps.getRepoInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -612,7 +612,7 @@ octokit.apps.getSubscriptionPlanForAccount({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -645,7 +645,7 @@ octokit.apps.getSubscriptionPlanForAccountStubbed({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -678,7 +678,7 @@ octokit.apps.getUserInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -707,7 +707,7 @@ You must use a [JWT](https://docs.github.com/apps/building-github-apps/authentic
 octokit.apps.getWebhookConfigForApp();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -725,7 +725,7 @@ octokit.apps.listAccountsForPlan({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -778,7 +778,7 @@ octokit.apps.listAccountsForPlanStubbed({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -835,7 +835,7 @@ octokit.apps.listInstallationReposForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -876,7 +876,7 @@ The permissions the installation has are included under the `permissions` key.
 octokit.apps.listInstallations();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -924,7 +924,7 @@ You can find the permissions for the installation under the `permissions` key.
 octokit.apps.listInstallationsForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -960,7 +960,7 @@ GitHub Apps must use a [JWT](https://docs.github.com/apps/building-github-apps/a
 octokit.apps.listPlans();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -996,7 +996,7 @@ GitHub Apps must use a [JWT](https://docs.github.com/apps/building-github-apps/a
 octokit.apps.listPlansStubbed();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1032,7 +1032,7 @@ You must use an [installation access token](https://docs.github.com/apps/buildin
 octokit.apps.listReposAccessibleToInstallation();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1066,7 +1066,7 @@ Lists the active subscriptions for the authenticated user. You must use a [user-
 octokit.apps.listSubscriptionsForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1100,7 +1100,7 @@ Lists the active subscriptions for the authenticated user. You must use a [user-
 octokit.apps.listSubscriptionsForAuthenticatedUserStubbed();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1139,7 +1139,7 @@ octokit.apps.removeRepoFromInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1174,7 +1174,7 @@ octokit.apps.resetToken({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1212,7 +1212,7 @@ You must use an [installation access token](https://docs.github.com/apps/buildin
 octokit.apps.revokeInstallationAccessToken();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -1228,7 +1228,7 @@ octokit.apps.scopeToken({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1443,7 +1443,7 @@ octokit.apps.suspendInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1478,7 +1478,7 @@ octokit.apps.unsuspendInstallation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1509,7 +1509,7 @@ You must use a [JWT](https://docs.github.com/apps/building-github-apps/authentic
 octokit.apps.updateWebhookConfigForApp();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

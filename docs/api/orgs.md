@@ -11,7 +11,7 @@ octokit.orgs.blockUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -46,7 +46,7 @@ octokit.orgs.cancelInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -79,7 +79,7 @@ octokit.orgs.checkBlockedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -112,7 +112,7 @@ octokit.orgs.checkMembershipForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -143,7 +143,7 @@ octokit.orgs.checkPublicMembershipForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -176,7 +176,7 @@ octokit.orgs.convertMemberToOutsideCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -210,7 +210,7 @@ octokit.orgs.createInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -265,7 +265,7 @@ config.url
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -339,7 +339,7 @@ octokit.orgs.deleteWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -373,7 +373,7 @@ octokit.orgs.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -400,7 +400,7 @@ octokit.orgs.getMembershipForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -430,7 +430,7 @@ octokit.orgs.getMembershipForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -463,7 +463,7 @@ octokit.orgs.getWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -498,7 +498,7 @@ octokit.orgs.getWebhookConfigForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -530,7 +530,7 @@ Lists all organizations, in the order that they were created on GitHub.
 octokit.orgs.list();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -566,7 +566,7 @@ octokit.orgs.listAppInstallations({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -605,7 +605,7 @@ octokit.orgs.listBlockedUsers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -634,7 +634,7 @@ octokit.orgs.listFailedInvitations({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -675,7 +675,7 @@ This only lists organizations that your authorization allows you to operate on i
 octokit.orgs.listForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -713,7 +713,7 @@ octokit.orgs.listForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -753,7 +753,7 @@ octokit.orgs.listInvitationTeams({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -797,7 +797,7 @@ octokit.orgs.listMembers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -847,7 +847,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 octokit.orgs.listMembershipsForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -888,7 +888,7 @@ octokit.orgs.listOutsideCollaborators({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -934,7 +934,7 @@ octokit.orgs.listPendingInvitations({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -973,7 +973,7 @@ octokit.orgs.listPublicMembers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1010,7 +1010,7 @@ octokit.orgs.listWebhooks({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1050,7 +1050,7 @@ octokit.orgs.pingWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1083,7 +1083,7 @@ octokit.orgs.removeMember({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1118,7 +1118,7 @@ octokit.orgs.removeMembershipForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1151,7 +1151,7 @@ octokit.orgs.removeOutsideCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1182,7 +1182,7 @@ octokit.orgs.removePublicMembershipForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1222,7 +1222,7 @@ octokit.orgs.setMembershipForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1264,7 +1264,7 @@ octokit.orgs.setPublicMembershipForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1295,7 +1295,7 @@ octokit.orgs.unblockUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1329,7 +1329,7 @@ octokit.orgs.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1477,7 +1477,7 @@ octokit.orgs.updateMembershipForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1513,7 +1513,7 @@ config.url
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1586,7 +1586,7 @@ octokit.orgs.updateWebhookConfigForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

@@ -16,7 +16,7 @@ octokit.codeScanning.getAlert({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -55,7 +55,7 @@ octokit.codeScanning.listAlertsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -98,7 +98,7 @@ octokit.codeScanning.listRecentAnalyses({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -143,7 +143,7 @@ octokit.codeScanning.updateAlert({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -195,7 +195,7 @@ octokit.codeScanning.uploadSarif({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

@@ -16,7 +16,7 @@ octokit.secretScanning.getAlert({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -56,7 +56,7 @@ octokit.secretScanning.listAlertsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -108,7 +108,7 @@ octokit.secretScanning.updateAlert({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

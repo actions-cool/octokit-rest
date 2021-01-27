@@ -24,7 +24,7 @@ octokit.teams.addOrUpdateMembershipForUserInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -72,7 +72,7 @@ octokit.teams.addOrUpdateProjectPermissionsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -125,7 +125,7 @@ octokit.teams.addOrUpdateRepoPermissionsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -181,7 +181,7 @@ octokit.teams.checkPermissionsForProjectInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -227,7 +227,7 @@ octokit.teams.checkPermissionsForRepoInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -270,7 +270,7 @@ octokit.teams.create({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -351,7 +351,7 @@ octokit.teams.createDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -400,7 +400,7 @@ octokit.teams.createDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -454,7 +454,7 @@ octokit.teams.deleteDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -498,7 +498,7 @@ octokit.teams.deleteDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -540,7 +540,7 @@ octokit.teams.deleteInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -577,7 +577,7 @@ octokit.teams.getByName({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -616,7 +616,7 @@ octokit.teams.getDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -660,7 +660,7 @@ octokit.teams.getDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -705,7 +705,7 @@ octokit.teams.getMembershipForUserInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -742,7 +742,7 @@ octokit.teams.list({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -784,7 +784,7 @@ octokit.teams.listChildInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -832,7 +832,7 @@ octokit.teams.listDiscussionCommentsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -887,7 +887,7 @@ octokit.teams.listDiscussionsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -934,7 +934,7 @@ List all of the teams across all of the organizations to which the authenticated
 octokit.teams.listForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -973,7 +973,7 @@ octokit.teams.listMembersInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1028,7 +1028,7 @@ octokit.teams.listPendingInvitationsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1075,7 +1075,7 @@ octokit.teams.listProjectsInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1122,7 +1122,7 @@ octokit.teams.listReposInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1174,7 +1174,7 @@ octokit.teams.removeMembershipForUserInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1215,7 +1215,7 @@ octokit.teams.removeProjectInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1257,7 +1257,7 @@ octokit.teams.removeRepoInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1303,7 +1303,7 @@ octokit.teams.updateDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1352,7 +1352,7 @@ octokit.teams.updateDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1403,7 +1403,7 @@ octokit.teams.updateInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

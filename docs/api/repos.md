@@ -10,7 +10,7 @@ octokit.repos.acceptInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -50,7 +50,7 @@ octokit.repos.addAppAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -102,7 +102,7 @@ octokit.repos.addCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -153,7 +153,7 @@ octokit.repos.addStatusCheckContexts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -202,7 +202,7 @@ octokit.repos.addTeamAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -251,7 +251,7 @@ octokit.repos.addUserAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -295,7 +295,7 @@ octokit.repos.checkCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -331,7 +331,7 @@ octokit.repos.checkVulnerabilityAlerts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -406,7 +406,7 @@ octokit.repos.compareCommits({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -449,7 +449,7 @@ octokit.repos.createCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -510,7 +510,7 @@ octokit.repos.createCommitSignatureProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -552,7 +552,7 @@ octokit.repos.createCommitStatus({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -611,7 +611,7 @@ octokit.repos.createDeployKey({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -680,7 +680,7 @@ application with debugging enabled.
 
 Users with `repo` or `repo_deployment` scopes can create a deployment for a given ref.
 
-- Merged branch response
+###### Merged branch response
 
 You will see this response when GitHub automatically merges the base branch into the topic branch instead of creating
 a deployment. This auto-merge happens when:
@@ -692,12 +692,12 @@ a deployment. This auto-merge happens when:
 If there are no new commits in the base branch, a new request to create a deployment should give a successful
 response.
 
-- Merge conflict response
+#### Merge conflict response
 
 This error happens when the `auto_merge` option is enabled and when the default branch (in this case `master`), can't
 be merged into the branch that's being deployed (in this case `topic-branch`), due to merge conflicts.
 
-- Failed commit status checks
+#### Failed commit status checks
 
 This error happens when the `required_contexts` parameter indicates that one or more contexts need to have a `success`
 status for the commit to be deployed, but one or more of the required contexts do not have a state of `success`.
@@ -710,7 +710,7 @@ octokit.repos.createDeployment({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -795,7 +795,7 @@ octokit.repos.createDeploymentStatus({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -882,7 +882,7 @@ octokit.repos.createDispatchEvent({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -934,7 +934,7 @@ octokit.repos.createForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1048,7 +1048,7 @@ octokit.repos.createFork({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1093,7 +1093,7 @@ octokit.repos.createInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1216,7 +1216,7 @@ author.email
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1312,7 +1312,7 @@ source.branch
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1363,7 +1363,7 @@ octokit.repos.createRelease({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1434,7 +1434,7 @@ octokit.repos.createUsingTemplate({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1495,7 +1495,7 @@ config.url
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1571,7 +1571,7 @@ octokit.repos.declineInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1606,7 +1606,7 @@ octokit.repos.delete({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1642,7 +1642,7 @@ octokit.repos.deleteAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1683,7 +1683,7 @@ octokit.repos.deleteAdminBranchProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1722,7 +1722,7 @@ octokit.repos.deleteBranchProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1759,7 +1759,7 @@ octokit.repos.deleteCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1800,7 +1800,7 @@ octokit.repos.deleteCommitSignatureProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1839,7 +1839,7 @@ octokit.repos.deleteDeployKey({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1885,7 +1885,7 @@ octokit.repos.deleteDeployment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1932,7 +1932,7 @@ octokit.repos.deleteFile({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2014,7 +2014,7 @@ octokit.repos.deleteInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2050,7 +2050,7 @@ octokit.repos.deletePagesSite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2084,7 +2084,7 @@ octokit.repos.deletePullRequestReviewProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2123,7 +2123,7 @@ octokit.repos.deleteRelease({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2160,7 +2160,7 @@ octokit.repos.deleteReleaseAsset({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2197,7 +2197,7 @@ octokit.repos.deleteWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2233,7 +2233,7 @@ octokit.repos.disableAutomatedSecurityFixes({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2266,7 +2266,7 @@ octokit.repos.disableVulnerabilityAlerts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2305,7 +2305,7 @@ octokit.repos.downloadArchive({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2345,7 +2345,7 @@ octokit.repos.downloadTarballArchive({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2385,7 +2385,7 @@ octokit.repos.downloadZipballArchive({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2421,7 +2421,7 @@ octokit.repos.enableAutomatedSecurityFixes({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2454,7 +2454,7 @@ octokit.repos.enableVulnerabilityAlerts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2489,7 +2489,7 @@ octokit.repos.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2527,7 +2527,7 @@ octokit.repos.getAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2566,7 +2566,7 @@ octokit.repos.getAdminBranchProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2605,7 +2605,7 @@ octokit.repos.getAllStatusCheckContexts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2641,7 +2641,7 @@ octokit.repos.getAllTopics({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2677,7 +2677,7 @@ octokit.repos.getAppsWithAccessToProtectedBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2714,7 +2714,7 @@ octokit.repos.getBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2753,7 +2753,7 @@ octokit.repos.getBranchProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2791,7 +2791,7 @@ octokit.repos.getClones({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2829,7 +2829,7 @@ octokit.repos.getCodeFrequencyStats({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2863,7 +2863,7 @@ octokit.repos.getCollaboratorPermissionLevel({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2908,7 +2908,7 @@ octokit.repos.getCombinedStatusForRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2982,7 +2982,7 @@ octokit.repos.getCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3020,7 +3020,7 @@ octokit.repos.getCommitActivityStats({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3052,7 +3052,7 @@ octokit.repos.getCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3095,7 +3095,7 @@ octokit.repos.getCommitSignatureProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3144,7 +3144,7 @@ octokit.repos.getCommunityProfileMetrics({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3183,20 +3183,20 @@ object format.
   API](https://docs.github.com/rest/reference/git#get-a-tree).
 - This API supports files up to 1 megabyte in size.
 
-- If the content is a directory
+###### If the content is a directory
 
 The response will be an array of objects, one object for each item in the directory.
 When listing the contents of a directory, submodules have their "type" specified as "file". Logically, the value
 _should_ be "submodule". This behavior exists in API v3 [for backwards compatibility purposes](https://git.io/v1YCW).
 In the next major version of the API, the type will be returned as "submodule".
 
-- If the content is a symlink
+#### If the content is a symlink
 
 If the requested `:path` points to a symlink, and the symlink's target is a normal file in the repository, then the
 API responds with the content of the file (in the format shown in the example. Otherwise, the API responds with an object
 describing the symlink itself.
 
-- If the content is a submodule
+#### If the content is a submodule
 
 The `submodule_git_url` identifies the location of the submodule repository, and the `sha` identifies a specific
 commit within the submodule repository. Git uses the given URL when cloning the submodule repository, and checks out
@@ -3213,7 +3213,7 @@ octokit.repos.getContent({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -3261,7 +3261,7 @@ octokit.repos.getContributorsStats({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3293,7 +3293,7 @@ octokit.repos.getDeployKey({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3330,7 +3330,7 @@ octokit.repos.getDeployment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3370,7 +3370,7 @@ octokit.repos.getDeploymentStatus({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3409,7 +3409,7 @@ octokit.repos.getLatestPagesBuild({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3444,7 +3444,7 @@ octokit.repos.getLatestRelease({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3475,7 +3475,7 @@ octokit.repos.getPages({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3507,7 +3507,7 @@ octokit.repos.getPagesBuild({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3545,7 +3545,7 @@ octokit.repos.getParticipationStats({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3579,7 +3579,7 @@ octokit.repos.getPullRequestReviewProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3623,7 +3623,7 @@ octokit.repos.getPunchCardStats({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3658,7 +3658,7 @@ octokit.repos.getReadme({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3697,7 +3697,7 @@ octokit.repos.getRelease({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3736,7 +3736,7 @@ octokit.repos.getReleaseAsset({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3775,7 +3775,7 @@ octokit.repos.getReleaseByTag({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3814,7 +3814,7 @@ octokit.repos.getStatusChecksProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3855,7 +3855,7 @@ octokit.repos.getTeamsWithAccessToProtectedBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3893,7 +3893,7 @@ octokit.repos.getTopPaths({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3926,7 +3926,7 @@ octokit.repos.getTopReferrers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -3962,7 +3962,7 @@ octokit.repos.getUsersWithAccessToProtectedBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4000,7 +4000,7 @@ octokit.repos.getViews({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4039,7 +4039,7 @@ octokit.repos.getWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4078,7 +4078,7 @@ octokit.repos.getWebhookConfigForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4112,7 +4112,7 @@ octokit.repos.listBranches({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4163,7 +4163,7 @@ octokit.repos.listBranchesForHeadCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4203,7 +4203,7 @@ octokit.repos.listCollaborators({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4255,7 +4255,7 @@ octokit.repos.listCommentsForCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4305,7 +4305,7 @@ octokit.repos.listCommitCommentsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4375,7 +4375,7 @@ octokit.repos.listCommits({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4446,7 +4446,7 @@ octokit.repos.listCommitStatusesForRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4496,7 +4496,7 @@ octokit.repos.listContributors({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4542,7 +4542,7 @@ octokit.repos.listDeployKeys({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4585,7 +4585,7 @@ octokit.repos.listDeployments({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4649,7 +4649,7 @@ octokit.repos.listDeploymentStatuses({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4696,7 +4696,7 @@ The authenticated user has explicit permission to access repositories they own, 
 octokit.repos.listForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4771,7 +4771,7 @@ octokit.repos.listForks({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4818,7 +4818,7 @@ octokit.repos.listForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4872,7 +4872,7 @@ octokit.repos.listForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4927,7 +4927,7 @@ octokit.repos.listInvitations({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -4967,7 +4967,7 @@ When authenticating as a user, this endpoint will list all currently open reposi
 octokit.repos.listInvitationsForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5004,7 +5004,7 @@ octokit.repos.listLanguages({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5035,7 +5035,7 @@ octokit.repos.listPagesBuilds({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5077,7 +5077,7 @@ Note: Pagination is powered exclusively by the `since` parameter. Use the [Link 
 octokit.repos.listPublic();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5110,7 +5110,7 @@ octokit.repos.listPullRequestsAssociatedWithCommit({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5157,7 +5157,7 @@ octokit.repos.listReleaseAssets({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5207,7 +5207,7 @@ octokit.repos.listReleases({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5248,7 +5248,7 @@ octokit.repos.listTags({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5289,7 +5289,7 @@ octokit.repos.listTeams({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5330,7 +5330,7 @@ octokit.repos.listWebhooks({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5373,7 +5373,7 @@ octokit.repos.merge({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5422,7 +5422,7 @@ octokit.repos.pingWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5466,7 +5466,7 @@ octokit.repos.removeAppAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5506,7 +5506,7 @@ octokit.repos.removeCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5544,7 +5544,7 @@ octokit.repos.removeStatusCheckContexts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5586,7 +5586,7 @@ octokit.repos.removeStatusCheckProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5632,7 +5632,7 @@ octokit.repos.removeTeamAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5681,7 +5681,7 @@ octokit.repos.removeUserAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5738,7 +5738,7 @@ octokit.repos.renameBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5780,7 +5780,7 @@ octokit.repos.replaceAllTopics({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5820,7 +5820,7 @@ octokit.repos.requestPagesBuild({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5856,7 +5856,7 @@ octokit.repos.setAdminBranchProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5902,7 +5902,7 @@ octokit.repos.setAppAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5945,7 +5945,7 @@ octokit.repos.setStatusCheckContexts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -5994,7 +5994,7 @@ octokit.repos.setTeamAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6043,7 +6043,7 @@ octokit.repos.setUserAccessRestrictions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6087,7 +6087,7 @@ octokit.repos.testPushWebhook({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6124,7 +6124,7 @@ octokit.repos.transfer({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6167,7 +6167,7 @@ octokit.repos.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6291,7 +6291,7 @@ restrictions.teams
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6419,7 +6419,7 @@ octokit.repos.updateCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6463,7 +6463,7 @@ octokit.repos.updateInformationAboutPagesSite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6508,7 +6508,7 @@ octokit.repos.updateInvitation({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6556,7 +6556,7 @@ octokit.repos.updatePullRequestReviewProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6625,7 +6625,7 @@ octokit.repos.updateRelease({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6694,7 +6694,7 @@ octokit.repos.updateReleaseAsset({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6750,7 +6750,7 @@ octokit.repos.updateStatusCheckPotection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6801,7 +6801,7 @@ octokit.repos.updateStatusCheckProtection({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6851,7 +6851,7 @@ config.url
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -6941,7 +6941,7 @@ octokit.repos.updateWebhookConfigForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -7017,7 +7017,7 @@ octokit.repos.uploadReleaseAsset({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

@@ -10,7 +10,7 @@ octokit.gists.checkIsStarred({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -44,7 +44,7 @@ files.*.content
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -90,7 +90,7 @@ octokit.gists.createComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -124,7 +124,7 @@ octokit.gists.delete({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -154,7 +154,7 @@ octokit.gists.deleteComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -190,7 +190,7 @@ octokit.gists.fork({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -219,7 +219,7 @@ octokit.gists.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -249,7 +249,7 @@ octokit.gists.getComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -284,7 +284,7 @@ octokit.gists.getRevision({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -316,7 +316,7 @@ Lists the authenticated user's gists or if called anonymously, this endpoint ret
 octokit.gists.list();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -355,7 +355,7 @@ octokit.gists.listComments({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -394,7 +394,7 @@ octokit.gists.listCommits({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -433,7 +433,7 @@ octokit.gists.listForks({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -474,7 +474,7 @@ octokit.gists.listForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -518,7 +518,7 @@ Note: With [pagination](https://docs.github.com/rest/overview/resources-in-the-r
 octokit.gists.listPublic();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -557,7 +557,7 @@ List the authenticated user's starred gists:
 octokit.gists.listStarred();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -598,7 +598,7 @@ octokit.gists.star({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -627,7 +627,7 @@ octokit.gists.unstar({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -658,7 +658,7 @@ octokit.gists.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -712,7 +712,7 @@ octokit.gists.updateComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

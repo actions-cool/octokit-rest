@@ -11,7 +11,7 @@ octokit.activity.checkRepoIsStarredByAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -44,7 +44,7 @@ octokit.activity.deleteRepoSubscription({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -76,7 +76,7 @@ octokit.activity.deleteThreadSubscription({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -115,7 +115,7 @@ GitHub provides several timeline resources in [Atom](<http://en.wikipedia.org/wi
 octokit.activity.getFeeds();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -130,7 +130,7 @@ octokit.activity.getRepoSubscription({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -160,7 +160,7 @@ octokit.activity.getThread({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -193,7 +193,7 @@ octokit.activity.getThreadSubscriptionForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -224,7 +224,7 @@ octokit.activity.listEventsForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -261,7 +261,7 @@ List all notifications for the current user, sorted by most recently updated.
 octokit.activity.listNotificationsForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -318,7 +318,7 @@ octokit.activity.listOrgEventsForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -358,7 +358,7 @@ We delay the public events feed by five minutes, which means the most recent eve
 octokit.activity.listPublicEvents();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -393,7 +393,7 @@ octokit.activity.listPublicEventsForRepoNetwork({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -433,7 +433,7 @@ octokit.activity.listPublicEventsForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -470,7 +470,7 @@ octokit.activity.listPublicOrgEvents({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -509,7 +509,7 @@ octokit.activity.listReceivedEventsForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -546,7 +546,7 @@ octokit.activity.listReceivedPublicEventsForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -584,7 +584,7 @@ octokit.activity.listRepoEvents({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -627,7 +627,7 @@ octokit.activity.listRepoNotificationsForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -689,7 +689,7 @@ You can also find out _when_ stars were created by passing the following custom 
 octokit.activity.listReposStarredByAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -737,7 +737,7 @@ octokit.activity.listReposStarredByUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -786,7 +786,7 @@ octokit.activity.listReposWatchedByUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -828,7 +828,7 @@ octokit.activity.listStargazersForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -868,7 +868,7 @@ Lists repositories the authenticated user is watching.
 octokit.activity.listWatchedReposForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -905,7 +905,7 @@ octokit.activity.listWatchersForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -945,7 +945,7 @@ Marks all notifications as "read" removes it from the [default view on GitHub](h
 octokit.activity.markNotificationsAsRead();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -982,7 +982,7 @@ octokit.activity.markRepoNotificationsAsRead({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1017,7 +1017,7 @@ octokit.activity.markThreadAsRead({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1049,7 +1049,7 @@ octokit.activity.setRepoSubscription({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1095,7 +1095,7 @@ octokit.activity.setThreadSubscription({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1132,7 +1132,7 @@ octokit.activity.starRepoForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1163,7 +1163,7 @@ octokit.activity.unstarRepoForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

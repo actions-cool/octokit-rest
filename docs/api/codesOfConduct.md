@@ -8,7 +8,7 @@ title: 'codesOfConduct'
 octokit.codesOfConduct.getAllCodesOfConduct();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -22,7 +22,7 @@ octokit.codesOfConduct.getConductCode({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -54,7 +54,7 @@ octokit.codesOfConduct.getForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

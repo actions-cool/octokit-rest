@@ -15,7 +15,7 @@ octokit.enterpriseAdmin.disableSelectedOrganizationGithubActionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -54,7 +54,7 @@ octokit.enterpriseAdmin.enableSelectedOrganizationGithubActionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -92,7 +92,7 @@ octokit.enterpriseAdmin.getAllowedActionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -125,7 +125,7 @@ octokit.enterpriseAdmin.getGithubActionsPermissionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -160,7 +160,7 @@ octokit.enterpriseAdmin.listSelectedOrganizationsEnabledGithubActionsEnterprise(
 );
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -206,7 +206,7 @@ octokit.enterpriseAdmin.setAllowedActionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -255,7 +255,7 @@ octokit.enterpriseAdmin.setGithubActionsPermissionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -299,7 +299,7 @@ octokit.enterpriseAdmin.setSelectedOrganizationsEnabledGithubActionsEnterprise({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

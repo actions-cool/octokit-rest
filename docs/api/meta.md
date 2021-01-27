@@ -12,7 +12,7 @@ Returns meta information about GitHub, including a list of GitHub's IP addresses
 octokit.meta.get();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -26,7 +26,7 @@ Get the octocat as ASCII art
 octokit.meta.getOctocat();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -55,7 +55,7 @@ Get a random sentence from the Zen of GitHub
 octokit.meta.getZen();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -69,7 +69,7 @@ Get Hypermedia links to resources accessible in GitHub's REST API
 octokit.meta.root();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 

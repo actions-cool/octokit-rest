@@ -31,7 +31,7 @@ actions[].identifier
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -218,7 +218,7 @@ octokit.checks.createSuite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -259,7 +259,7 @@ octokit.checks.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -300,7 +300,7 @@ octokit.checks.getSuite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -339,7 +339,7 @@ octokit.checks.listAnnotations({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -390,7 +390,7 @@ octokit.checks.listForRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -456,7 +456,7 @@ octokit.checks.listForSuite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -522,7 +522,7 @@ octokit.checks.listSuitesForRef({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -583,7 +583,7 @@ octokit.checks.rerequestSuite({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -623,7 +623,7 @@ auto_trigger_checks[].setting
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -685,7 +685,7 @@ actions[].identifier
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

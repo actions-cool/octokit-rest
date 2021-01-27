@@ -12,7 +12,7 @@ octokit.pulls.checkIfMerged({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -56,7 +56,7 @@ octokit.pulls.create({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -127,7 +127,7 @@ octokit.pulls.createReplyForReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -182,7 +182,7 @@ comments[].body
       })
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -274,7 +274,7 @@ octokit.pulls.createReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -353,7 +353,7 @@ octokit.pulls.deletePendingReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -395,7 +395,7 @@ octokit.pulls.deleteReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -436,7 +436,7 @@ octokit.pulls.dismissReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -500,7 +500,7 @@ octokit.pulls.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -536,7 +536,7 @@ octokit.pulls.getReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -578,7 +578,7 @@ octokit.pulls.getReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -616,7 +616,7 @@ octokit.pulls.list({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -686,7 +686,7 @@ octokit.pulls.listCommentsForReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -738,7 +738,7 @@ octokit.pulls.listCommits({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -785,7 +785,7 @@ octokit.pulls.listFiles({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -830,7 +830,7 @@ octokit.pulls.listRequestedReviewers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -877,7 +877,7 @@ octokit.pulls.listReviewComments({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -938,7 +938,7 @@ octokit.pulls.listReviewCommentsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -997,7 +997,7 @@ octokit.pulls.listReviews({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1044,7 +1044,7 @@ octokit.pulls.merge({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1099,7 +1099,7 @@ octokit.pulls.removeRequestedReviewers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1146,7 +1146,7 @@ octokit.pulls.requestReviewers({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1193,7 +1193,7 @@ octokit.pulls.submitReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1247,7 +1247,7 @@ octokit.pulls.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1309,7 +1309,7 @@ octokit.pulls.updateBranch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1353,7 +1353,7 @@ octokit.pulls.updateReview({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1401,7 +1401,7 @@ octokit.pulls.updateReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

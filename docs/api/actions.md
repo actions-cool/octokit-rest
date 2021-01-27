@@ -14,7 +14,7 @@ octokit.actions.addSelectedRepoToOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -53,7 +53,7 @@ octokit.actions.cancelWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -85,7 +85,7 @@ Creates or updates an organization secret with an encrypted value. Encrypt your 
 token with the `admin:org` scope to use this endpoint. GitHub Apps must have the `secrets` organization permission to
 use this endpoint.
 
-- Example encrypting a secret using Node.js
+###### Example encrypting a secret using Node.js
 
 Encrypt your secret using the [tweetsodium](https://github.com/github/tweetsodium) library.
 
@@ -108,7 +108,7 @@ const encrypted = Buffer.from(encryptedBytes).toString('base64');
 console.log(encrypted);
 ```
 
-- Example encrypting a secret using Python
+#### Example encrypting a secret using Python
 
 Encrypt your secret using [pynacl](https://pynacl.readthedocs.io/en/stable/public/#nacl-public-sealedbox) with Python 3.
 
@@ -124,7 +124,7 @@ def encrypt(public_key: str, secret_value: str) -> str:
   return b64encode(encrypted).decode("utf-8")
 ```
 
-- Example encrypting a secret using C#
+#### Example encrypting a secret using C#
 
 Encrypt your secret using the [Sodium.Core](https://www.nuget.org/packages/Sodium.Core/) package.
 
@@ -137,7 +137,7 @@ var sealedPublicKeyBox = Sodium.SealedPublicKeyBox.Create(secretValue, publicKey
 Console.WriteLine(Convert.ToBase64String(sealedPublicKeyBox));
 ```
 
-- Example encrypting a secret using Ruby
+#### Example encrypting a secret using Ruby
 
 Encrypt your secret using the [rbnacl](https://github.com/RubyCrypto/rbnacl) gem.
 
@@ -162,7 +162,7 @@ octokit.actions.createOrUpdateOrgSecret({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -216,7 +216,7 @@ Creates or updates a repository secret with an encrypted value. Encrypt your sec
 token with the `repo` scope to use this endpoint. GitHub Apps must have the `secrets` repository permission to use
 this endpoint.
 
-- Example encrypting a secret using Node.js
+###### Example encrypting a secret using Node.js
 
 Encrypt your secret using the [tweetsodium](https://github.com/github/tweetsodium) library.
 
@@ -239,7 +239,7 @@ const encrypted = Buffer.from(encryptedBytes).toString('base64');
 console.log(encrypted);
 ```
 
-- Example encrypting a secret using Python
+#### Example encrypting a secret using Python
 
 Encrypt your secret using [pynacl](https://pynacl.readthedocs.io/en/stable/public/#nacl-public-sealedbox) with Python 3.
 
@@ -255,7 +255,7 @@ def encrypt(public_key: str, secret_value: str) -> str:
   return b64encode(encrypted).decode("utf-8")
 ```
 
-- Example encrypting a secret using C#
+#### Example encrypting a secret using C#
 
 Encrypt your secret using the [Sodium.Core](https://www.nuget.org/packages/Sodium.Core/) package.
 
@@ -268,7 +268,7 @@ var sealedPublicKeyBox = Sodium.SealedPublicKeyBox.Create(secretValue, publicKey
 Console.WriteLine(Convert.ToBase64String(sealedPublicKeyBox));
 ```
 
-- Example encrypting a secret using Ruby
+#### Example encrypting a secret using Ruby
 
 Encrypt your secret using the [rbnacl](https://github.com/RubyCrypto/rbnacl) gem.
 
@@ -294,7 +294,7 @@ octokit.actions.createOrUpdateRepoSecret({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -337,7 +337,7 @@ Returns a token that you can pass to the `config` script. The token expires afte
 
 You must authenticate using an access token with the `admin:org` scope to use this endpoint.
 
-- Example using registration token
+###### Example using registration token
 
 Configure your self-hosted runner, replacing `TOKEN` with the registration token provided by this endpoint.
 
@@ -351,7 +351,7 @@ octokit.actions.createRegistrationTokenForOrg({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -375,7 +375,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 Returns a token that you can pass to the `config` script. The token expires after one hour. You must authenticate
 using an access token with the `repo` scope to use this endpoint.
 
-- Example using registration token
+###### Example using registration token
 
 Configure your self-hosted runner, replacing `TOKEN` with the registration token provided by this endpoint.
 
@@ -390,7 +390,7 @@ octokit.actions.createRegistrationTokenForRepo({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -418,7 +418,7 @@ Returns a token that you can pass to the `config` script to remove a self-hosted
 
 You must authenticate using an access token with the `admin:org` scope to use this endpoint.
 
-- Example using remove token
+###### Example using remove token
 
 To remove your self-hosted runner from an organization, replace `TOKEN` with the remove token provided by this
 endpoint.
@@ -433,7 +433,7 @@ octokit.actions.createRemoveTokenForOrg({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -457,7 +457,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 Returns a token that you can pass to remove a self-hosted runner from a repository. The token expires after one hour.
 You must authenticate using an access token with the `repo` scope to use this endpoint.
 
-- Example using remove token
+###### Example using remove token
 
 To remove your self-hosted runner from a repository, replace TOKEN with the remove token provided by this endpoint.
 
@@ -472,7 +472,7 @@ octokit.actions.createRemoveTokenForRepo({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -511,7 +511,7 @@ octokit.actions.createWorkflowDispatch({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -563,7 +563,7 @@ octokit.actions.deleteArtifact({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -601,7 +601,7 @@ octokit.actions.deleteOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -637,7 +637,7 @@ octokit.actions.deleteRepoSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -677,7 +677,7 @@ octokit.actions.deleteSelfHostedRunnerFromOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -716,7 +716,7 @@ octokit.actions.deleteSelfHostedRunnerFromRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -757,7 +757,7 @@ octokit.actions.deleteWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -794,7 +794,7 @@ octokit.actions.deleteWorkflowRunLogs({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -832,7 +832,7 @@ octokit.actions.disableSelectedRepositoryGithubActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -868,7 +868,7 @@ octokit.actions.disableWorkflow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -911,7 +911,7 @@ octokit.actions.downloadArtifact({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -956,7 +956,7 @@ octokit.actions.downloadJobLogsForWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -998,7 +998,7 @@ octokit.actions.downloadWorkflowRunLogs({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1036,7 +1036,7 @@ octokit.actions.enableSelectedRepositoryGithubActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1072,7 +1072,7 @@ octokit.actions.enableWorkflow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1111,7 +1111,7 @@ octokit.actions.getAllowedActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1143,7 +1143,7 @@ octokit.actions.getAllowedActionsRepository({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1177,7 +1177,7 @@ octokit.actions.getArtifact({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1216,7 +1216,7 @@ octokit.actions.getGithubActionsPermissionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1249,7 +1249,7 @@ octokit.actions.getGithubActionsPermissionsRepository({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1283,7 +1283,7 @@ octokit.actions.getJobForWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1320,7 +1320,7 @@ octokit.actions.getOrgPublicKey({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1350,7 +1350,7 @@ octokit.actions.getOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1390,7 +1390,7 @@ octokit.actions.getRepoPermissions({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1423,7 +1423,7 @@ octokit.actions.getRepoPublicKey({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1457,7 +1457,7 @@ octokit.actions.getRepoSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1497,7 +1497,7 @@ octokit.actions.getSelfHostedRunnerForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1536,7 +1536,7 @@ octokit.actions.getSelfHostedRunnerForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1575,7 +1575,7 @@ octokit.actions.getWorkflow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1614,7 +1614,7 @@ octokit.actions.getWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1653,7 +1653,7 @@ octokit.actions.getWorkflowRunUsage({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1692,7 +1692,7 @@ octokit.actions.getWorkflowUsage({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1730,7 +1730,7 @@ octokit.actions.listArtifactsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1774,7 +1774,7 @@ octokit.actions.listJobsForWorkflowRun({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1826,7 +1826,7 @@ octokit.actions.listOrgSecrets({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1866,7 +1866,7 @@ octokit.actions.listRepoSecrets({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1909,7 +1909,7 @@ octokit.actions.listRepoWorkflows({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1953,7 +1953,7 @@ octokit.actions.listRunnerApplicationsForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1985,7 +1985,7 @@ octokit.actions.listRunnerApplicationsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2018,7 +2018,7 @@ octokit.actions.listSelectedReposForOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2054,7 +2054,7 @@ octokit.actions.listSelectedRepositoriesEnabledGithubActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2095,7 +2095,7 @@ octokit.actions.listSelfHostedRunnersForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2135,7 +2135,7 @@ octokit.actions.listSelfHostedRunnersForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2179,7 +2179,7 @@ octokit.actions.listWorkflowRunArtifacts({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2228,7 +2228,7 @@ octokit.actions.listWorkflowRuns({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2298,7 +2298,7 @@ octokit.actions.listWorkflowRunsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2362,7 +2362,7 @@ octokit.actions.removeSelectedRepoFromOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2401,7 +2401,7 @@ octokit.actions.reRunWorkflow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2445,7 +2445,7 @@ octokit.actions.setAllowedActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2499,7 +2499,7 @@ octokit.actions.setAllowedActionsRepository({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2551,7 +2551,7 @@ octokit.actions.setGithubActionsPermissionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2596,7 +2596,7 @@ octokit.actions.setGithubActionsPermissionsRepository({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2639,7 +2639,7 @@ octokit.actions.setSelectedReposForOrgSecret({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -2681,7 +2681,7 @@ octokit.actions.setSelectedRepositoriesEnabledGithubActionsOrganization({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

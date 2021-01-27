@@ -15,7 +15,7 @@ octokit.reactions.createForCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -60,7 +60,7 @@ octokit.reactions.createForIssue({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -105,7 +105,7 @@ octokit.reactions.createForIssueComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -150,7 +150,7 @@ octokit.reactions.createForPullRequestReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -198,7 +198,7 @@ octokit.reactions.createForTeamDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -248,7 +248,7 @@ octokit.reactions.createForTeamDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -295,7 +295,7 @@ octokit.reactions.deleteForCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -340,7 +340,7 @@ octokit.reactions.deleteForIssue({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -385,7 +385,7 @@ octokit.reactions.deleteForIssueComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -430,7 +430,7 @@ octokit.reactions.deleteForPullRequestComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -475,7 +475,7 @@ octokit.reactions.deleteForTeamDiscussion({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -521,7 +521,7 @@ octokit.reactions.deleteForTeamDiscussionComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -568,7 +568,7 @@ octokit.reactions.deleteLegacy({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -599,7 +599,7 @@ octokit.reactions.listForCommitComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -653,7 +653,7 @@ octokit.reactions.listForIssue({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -707,7 +707,7 @@ octokit.reactions.listForIssueComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -761,7 +761,7 @@ octokit.reactions.listForPullRequestReviewComment({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -818,7 +818,7 @@ octokit.reactions.listForTeamDiscussionCommentInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -877,7 +877,7 @@ octokit.reactions.listForTeamDiscussionInOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

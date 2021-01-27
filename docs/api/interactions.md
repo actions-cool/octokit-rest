@@ -12,7 +12,7 @@ octokit.interactions.getRestrictionsForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -42,7 +42,7 @@ octokit.interactions.getRestrictionsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -72,7 +72,7 @@ Shows which type of GitHub user can interact with your public repositories and w
 octokit.interactions.getRestrictionsForYourPublicRepos();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -88,7 +88,7 @@ octokit.interactions.removeRestrictionsForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -118,7 +118,7 @@ octokit.interactions.removeRestrictionsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -148,7 +148,7 @@ Removes any interaction restrictions from your public repositories.
 octokit.interactions.removeRestrictionsForYourPublicRepos();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -165,7 +165,7 @@ octokit.interactions.setRestrictionsForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -206,7 +206,7 @@ octokit.interactions.setRestrictionsForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -248,7 +248,7 @@ octokit.interactions.setRestrictionsForYourPublicRepos({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

@@ -10,7 +10,7 @@ List all templates available to pass as an option when [creating a repository](h
 octokit.gitignore.getAllTemplates();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -27,7 +27,7 @@ octokit.gitignore.getTemplate({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

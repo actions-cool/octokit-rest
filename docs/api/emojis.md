@@ -10,7 +10,7 @@ Lists all the emojis available to use on GitHub.
 octokit.emojis.get();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 

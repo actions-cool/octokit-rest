@@ -12,7 +12,7 @@ octokit.users.addEmailForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -41,7 +41,7 @@ octokit.users.block({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -68,7 +68,7 @@ octokit.users.checkBlocked({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -96,7 +96,7 @@ octokit.users.checkFollowingForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -126,7 +126,7 @@ octokit.users.checkPersonIsFollowedByAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -155,7 +155,7 @@ octokit.users.createGpgKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -186,7 +186,7 @@ octokit.users.createPublicSshKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -222,7 +222,7 @@ octokit.users.deleteEmailForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -253,7 +253,7 @@ octokit.users.deleteGpgKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -284,7 +284,7 @@ octokit.users.deletePublicSshKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -317,7 +317,7 @@ octokit.users.follow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -346,7 +346,7 @@ If the authenticated user is authenticated through OAuth without the `user` scop
 octokit.users.getAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -368,7 +368,7 @@ octokit.users.getByUsername({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -404,7 +404,7 @@ octokit.users.getContextForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -443,7 +443,7 @@ octokit.users.getGpgKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -474,7 +474,7 @@ octokit.users.getPublicSshKeyForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -505,7 +505,7 @@ Note: Pagination is powered exclusively by the `since` parameter. Use the [Link 
 octokit.users.list();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -539,7 +539,7 @@ List the users you've blocked on your personal account.
 octokit.users.listBlockedByAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 
@@ -553,7 +553,7 @@ Lists all of your email addresses, and specifies which one is visible to the pub
 octokit.users.listEmailsForAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -587,7 +587,7 @@ Lists the people who the authenticated user follows.
 octokit.users.listFollowedByAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -621,7 +621,7 @@ Lists the people following the authenticated user.
 octokit.users.listFollowersForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -657,7 +657,7 @@ octokit.users.listFollowersForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -696,7 +696,7 @@ octokit.users.listFollowingForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -733,7 +733,7 @@ Lists the current user's GPG keys. Requires that you are authenticated via Basic
 octokit.users.listGpgKeysForAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -769,7 +769,7 @@ octokit.users.listGpgKeysForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -806,7 +806,7 @@ Lists your publicly visible email address, which you can set with the [Set prima
 octokit.users.listPublicEmailsForAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -842,7 +842,7 @@ octokit.users.listPublicKeysForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -879,7 +879,7 @@ Lists the public SSH keys for the authenticated user's GitHub account. Requires 
 octokit.users.listPublicSshKeysForAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -916,7 +916,7 @@ octokit.users.setPrimaryEmailVisibilityForAuthenticated({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -950,7 +950,7 @@ octokit.users.unblock({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -979,7 +979,7 @@ octokit.users.unfollow({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -1006,7 +1006,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 octokit.users.updateAuthenticated();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

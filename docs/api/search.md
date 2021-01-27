@@ -14,7 +14,7 @@ For example, if you want to find the definition of the `addClass` function insid
 
 This query searches for the keyword `addClass` within a file's contents. The query limits the search to files where the language is JavaScript in the `jquery/jquery` repository.
 
-- Considerations for code search
+###### Considerations for code search
 
 Due to the complexity of searching code, there are a few restrictions on how searches are performed:
 
@@ -28,7 +28,7 @@ octokit.search.code({
 });
 ```
 
-### Parameters
+## Parameters
 
 <table>
   <thead>
@@ -86,7 +86,7 @@ octokit.search.commits({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -148,7 +148,7 @@ octokit.search.issuesAndPullRequests({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -208,7 +208,7 @@ octokit.search.labels({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -266,7 +266,7 @@ octokit.search.repos({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -325,7 +325,7 @@ octokit.search.topics({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -364,7 +364,7 @@ octokit.search.users({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

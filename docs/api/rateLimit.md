@@ -12,7 +12,7 @@ title: 'rateLimit'
 octokit.rateLimit.get();
 ```
 
-### Parameters
+#### Parameters
 
 This endpoint has no parameters
 

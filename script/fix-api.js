@@ -30,8 +30,8 @@ title: '${basePath}'
   const md = fs.readFileSync(`./.sync/api/${basePath}/${title}.md`, 'utf-8');
   const index = md.indexOf('#');
   let after = md.substring(index, md.length);
-  after = after.replace(/####/g, '-');
-  after = after.replace('## ', '### ');
+  // after = after.replace(/####/g, '-');
+  after = after.replace('## ', '#### ');
   after = after.replace('# ', '## ');
 
   fs.writeFileSync(`./docs/api/${basePath}.md`, before + after + '\n');

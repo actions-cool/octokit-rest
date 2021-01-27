@@ -16,7 +16,7 @@ octokit.billing.getGithubActionsBillingOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -49,7 +49,7 @@ octokit.billing.getGithubActionsBillingUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -82,7 +82,7 @@ octokit.billing.getGithubPackagesBillingOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -115,7 +115,7 @@ octokit.billing.getGithubPackagesBillingUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -148,7 +148,7 @@ octokit.billing.getSharedStorageBillingOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -181,7 +181,7 @@ octokit.billing.getSharedStorageBillingUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

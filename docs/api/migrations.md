@@ -13,7 +13,7 @@ octokit.migrations.cancelImport({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -45,7 +45,7 @@ octokit.migrations.deleteArchiveForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -77,7 +77,7 @@ octokit.migrations.deleteArchiveForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -112,7 +112,7 @@ octokit.migrations.downloadArchiveForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -166,7 +166,7 @@ octokit.migrations.getArchiveForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -200,7 +200,7 @@ octokit.migrations.getCommitAuthors({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -271,7 +271,7 @@ octokit.migrations.getImportStatus({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -304,7 +304,7 @@ octokit.migrations.getLargeFiles({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -343,7 +343,7 @@ octokit.migrations.getStatusForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -385,7 +385,7 @@ octokit.migrations.getStatusForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -417,7 +417,7 @@ Lists all migrations a user has started.
 octokit.migrations.listForAuthenticatedUser();
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -453,7 +453,7 @@ octokit.migrations.listForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -493,7 +493,7 @@ octokit.migrations.listReposForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -537,7 +537,7 @@ octokit.migrations.listReposForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -580,7 +580,7 @@ octokit.migrations.mapCommitAuthor({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -630,7 +630,7 @@ octokit.migrations.setLfsPreference({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -667,7 +667,7 @@ octokit.migrations.startForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -712,7 +712,7 @@ octokit.migrations.startForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -761,7 +761,7 @@ octokit.migrations.startImport({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -819,7 +819,7 @@ octokit.migrations.unlockRepoForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -857,7 +857,7 @@ octokit.migrations.unlockRepoForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -898,7 +898,7 @@ octokit.migrations.updateImport({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>

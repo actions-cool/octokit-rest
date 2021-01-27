@@ -13,7 +13,7 @@ octokit.projects.addCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -55,7 +55,7 @@ octokit.projects.createCard({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -100,7 +100,7 @@ octokit.projects.createColumn({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -132,7 +132,7 @@ octokit.projects.createForAuthenticatedUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -169,7 +169,7 @@ octokit.projects.createForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -210,7 +210,7 @@ octokit.projects.createForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -252,7 +252,7 @@ octokit.projects.delete({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -279,7 +279,7 @@ octokit.projects.deleteCard({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -308,7 +308,7 @@ octokit.projects.deleteColumn({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -339,7 +339,7 @@ octokit.projects.get({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -366,7 +366,7 @@ octokit.projects.getCard({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -395,7 +395,7 @@ octokit.projects.getColumn({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -427,7 +427,7 @@ octokit.projects.getPermissionForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -457,7 +457,7 @@ octokit.projects.listCards({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -503,7 +503,7 @@ octokit.projects.listCollaborators({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -548,7 +548,7 @@ octokit.projects.listColumns({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -587,7 +587,7 @@ octokit.projects.listForOrg({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -632,7 +632,7 @@ octokit.projects.listForRepo({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -677,7 +677,7 @@ octokit.projects.listForUser({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -720,7 +720,7 @@ octokit.projects.moveCard({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -760,7 +760,7 @@ octokit.projects.moveColumn({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -797,7 +797,7 @@ octokit.projects.removeCollaborator({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -829,7 +829,7 @@ octokit.projects.update({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -881,7 +881,7 @@ octokit.projects.updateCard({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
@@ -921,7 +921,7 @@ octokit.projects.updateColumn({
 });
 ```
 
-### Parameters
+#### Parameters
 
 <table>
   <thead>
