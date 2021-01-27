@@ -1,6 +1,5 @@
 const fs = require('fs');
 const glob = require('glob');
-const axios = require('axios');
 
 const paths = glob.sync('./.sync/api/*/*.md');
 
