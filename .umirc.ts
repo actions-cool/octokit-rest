@@ -1,7 +1,7 @@
 // more config: https://d.umijs.org/config
 import { defineConfig } from 'dumi';
 
-const name = 'octokit-rest-cn';
+const name = 'octokit-rest';
 
 export default defineConfig({
   title: 'Octokit Rest API',
