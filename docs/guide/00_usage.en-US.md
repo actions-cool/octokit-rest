@@ -1,5 +1,5 @@
 ---
-title: 'Usage'
+title: "Usage"
 toc: 'menu'
 ---
 
@@ -7,7 +7,6 @@ Import the Octokit constructor based on your platform.
 
 ## Browsers
 
-<div>
 Load <code>@octokit/rest</code> directly from <a href="https://cdn.skypack.dev">cdn.skypack.dev</a>
 
 ```html
@@ -16,21 +15,14 @@ Load <code>@octokit/rest</code> directly from <a href="https://cdn.skypack.dev">
 </script>
 ```
 
-</div>
-<hr />
-
 ## Node
 
-<div>
 Install with <code>npm install @octokit/rest</code>
 
 ```js
 const { Octokit } = require("@octokit/rest");
 // or: import { Octokit } from "@octokit/rest";
 ```
-
-</div>
-<hr />
 
 ```js
 const { Octokit } = require("@octokit/rest");

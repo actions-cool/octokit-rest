@@ -1,6 +1,12 @@
-# 🔥 GitHub REST API 官方 Octokit 库中文文档
+# 🔥 GitHub REST API 官方 Octokit 库中英文档
+
+根据 https://octokit.github.io/rest.js/v18/ 自行翻译而来，旨在方便查阅和学习。
+
+翻译学习进行中，若有翻译不恰之处，欢迎指正。
 
 ## 在线预览
+
+https://actions-cool.github.io/octokit-rest/
 
 ## Ref
 

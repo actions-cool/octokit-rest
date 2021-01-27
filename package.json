@@ -1,10 +1,17 @@
 {
+  "author": "xrkffgg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actions-cool/octokit-rest",
+    "branch": "main"
+  },
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build"
   },
   "devDependencies": {
-    "dumi": "1.1.1",
+    "dumi": "^1.1.1",
     "glob": "^7.1.6"
   }
 }
