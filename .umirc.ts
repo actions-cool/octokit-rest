@@ -54,6 +54,9 @@ export default defineConfig({
       .__dumi-default-layout-footer svg {
         display: none !important;
       }
+      .markdown table {
+        width: auto !important;
+      }
     `,
   ]
 });
