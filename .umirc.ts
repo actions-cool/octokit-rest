@@ -45,8 +45,10 @@ export default defineConfig({
       .__dumi-default-layout-toc {
         width: 236px !important;
       }
-      .__dumi-default-layout[data-site-mode=true][data-show-slugs=true] {
-        padding-right: 308px !important;
+      @media only screen and (min-width: 961px) {
+        .__dumi-default-layout[data-site-mode=true][data-show-slugs=true] {
+          padding-right: 308px !important;
+        }
       }
       .__dumi-default-menu-inner .__dumi-default-menu-list>li>a {
         text-transform: capitalize;
