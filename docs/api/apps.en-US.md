@@ -1431,8 +1431,6 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 
 ## Suspend an app installation
 
-**Note:** Suspending a GitHub App installation is currently in beta and subject to change. Before you can suspend a GitHub App, the app owner must enable suspending installations for the app by opting-in to the beta. For more information, see "[Suspending a GitHub App installation](https://docs.github.com/apps/managing-github-apps/suspending-a-github-app-installation/)."
-
 Suspends a GitHub App on a user, organization, or business account, which blocks the app from accessing the account's resources. When a GitHub App is suspended, the app's access to the GitHub API or webhook events is blocked for that account.
 
 You must use a [JWT](https://docs.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.
@@ -1465,8 +1463,6 @@ installation_id parameter
 See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#suspend-an-app-installation).
 
 ## Unsuspend an app installation
-
-**Note:** Suspending a GitHub App installation is currently in beta and subject to change. Before you can suspend a GitHub App, the app owner must enable suspending installations for the app by opting-in to the beta. For more information, see "[Suspending a GitHub App installation](https://docs.github.com/apps/managing-github-apps/suspending-a-github-app-installation/)."
 
 Removes a GitHub App installation suspension.
 
