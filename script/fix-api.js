@@ -35,4 +35,5 @@ title: '${basePath}'
   after = after.replace('# ', '## ');
 
   fs.writeFileSync(`./docs/api/${basePath}.md`, before + after + '\n');
+  fs.writeFileSync(`./docs/api/${basePath}.en-US.md`, before + after + '\n');
 });
