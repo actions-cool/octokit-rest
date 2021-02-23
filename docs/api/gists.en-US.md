@@ -29,7 +29,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#check-if-a-gist-is-starred).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#check-if-a-gist-is-starred).
 
 ## Create a gist
 
@@ -79,7 +79,7 @@ Content of the file
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#create-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#create-a-gist).
 
 ## Create a gist comment
 
@@ -143,7 +143,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#delete-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#delete-a-gist).
 
 ## Delete a gist comment
 
@@ -209,7 +209,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#fork-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#fork-a-gist).
 
 ## Get a gist
 
@@ -238,7 +238,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#get-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#get-a-gist).
 
 ## Get a gist comment
 
@@ -306,7 +306,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#get-a-gist-revision).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#get-a-gist-revision).
 
 ## List gists for the authenticated user
 
@@ -345,7 +345,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-gists-for-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-gists-for-the-authenticated-user).
 
 ## List gist comments
 
@@ -423,7 +423,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-gist-commits).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-gist-commits).
 
 ## List gist forks
 
@@ -462,7 +462,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-gist-forks).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-gist-forks).
 
 ## List gists for a user
 
@@ -506,7 +506,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-gists-for-a-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-gists-for-a-user).
 
 ## List public gists
 
@@ -547,7 +547,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-public-gists).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-public-gists).
 
 ## List starred gists
 
@@ -586,7 +586,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#list-starred-gists).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#list-starred-gists).
 
 ## Star a gist
 
@@ -617,7 +617,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#star-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#star-a-gist).
 
 ## Unstar a gist
 
@@ -646,7 +646,7 @@ gist_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#unstar-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#unstar-a-gist).
 
 ## Update a gist
 
@@ -700,7 +700,7 @@ The new filename for the file
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/gists/#update-a-gist).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/gists/#update-a-gist).
 
 ## Update a gist comment
 

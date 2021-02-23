@@ -350,7 +350,7 @@ octokit.users.getAuthenticated();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/users/#get-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/users/#get-the-authenticated-user).
 
 ## Get a user
 
@@ -385,7 +385,7 @@ octokit.users.getByUsername({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/users/#get-a-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/users/#get-a-user).
 
 ## Get contextual information for a user
 
@@ -431,7 +431,7 @@ Uses the ID for the `subject_type` you specified. **Required** when using `subje
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/users/#get-contextual-information-for-a-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/users/#get-contextual-information-for-a-user).
 
 ## Get a GPG key for the authenticated user
 
@@ -529,7 +529,7 @@ Results per page (max 100)
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/users/#list-users).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/users/#list-users).
 
 ## List users blocked by the authenticated user
 
@@ -1060,5 +1060,5 @@ The new short biography of the user.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/users/#update-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/users/#update-the-authenticated-user).
 

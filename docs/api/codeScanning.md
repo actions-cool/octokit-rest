@@ -42,7 +42,7 @@ octokit.codeScanning.getAlert({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/code-scanning/#get-a-code-scanning-alert).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/code-scanning/#get-a-code-scanning-alert).
 
 ## List code scanning alerts for a repository
 
@@ -85,7 +85,7 @@ Set a full Git reference to list alerts for a specific branch. The `ref` must be
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/code-scanning/#list-code-scanning-alerts-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/code-scanning/#list-code-scanning-alerts-for-a-repository).
 
 ## List recent code scanning analyses for a repository
 
@@ -128,7 +128,7 @@ Set a single code scanning tool name to filter alerts by tool.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/code-scanning/#list-recent-analyses).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/code-scanning/#list-recent-analyses).
 
 ## Update a code scanning alert
 
@@ -178,7 +178,7 @@ Sets the state of the code scanning alert. Can be one of `open` or `dismissed`. 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/code-scanning/#upload-a-code-scanning-alert).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/code-scanning/#upload-a-code-scanning-alert).
 
 ## Upload a SARIF file
 
@@ -246,5 +246,5 @@ The name of the tool used to generate the code scanning analysis alert.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/code-scanning/#upload-a-sarif-analysis).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/code-scanning/#upload-a-sarif-analysis).
 

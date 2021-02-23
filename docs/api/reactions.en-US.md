@@ -45,7 +45,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-a-commit-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-a-commit-comment).
 
 ## Create reaction for an issue
 
@@ -90,7 +90,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-an-issue).
 
 ## Create reaction for an issue comment
 
@@ -135,7 +135,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-an-issue-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-an-issue-comment).
 
 ## Create reaction for a pull request review comment
 
@@ -180,7 +180,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-a-pull-request-review-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-a-pull-request-review-comment).
 
 ## Create reaction for a team discussion comment
 
@@ -231,7 +231,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-a-team-discussion-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-a-team-discussion-comment).
 
 ## Create reaction for a team discussion
 
@@ -278,7 +278,7 @@ The [reaction type](https://docs.github.com/rest/reference/reactions#reaction-ty
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#create-reaction-for-a-team-discussion).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#create-reaction-for-a-team-discussion).
 
 ## Delete a commit comment reaction
 
@@ -323,7 +323,7 @@ comment_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-a-commit-comment-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-a-commit-comment-reaction).
 
 ## Delete an issue reaction
 
@@ -368,7 +368,7 @@ issue_number parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-an-issue-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-an-issue-reaction).
 
 ## Delete an issue comment reaction
 
@@ -413,7 +413,7 @@ comment_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-an-issue-comment-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-an-issue-comment-reaction).
 
 ## Delete a pull request comment reaction
 
@@ -458,7 +458,7 @@ comment_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-a-pull-request-comment-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-a-pull-request-comment-reaction).
 
 ## Delete team discussion reaction
 
@@ -503,7 +503,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-team-discussion-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-team-discussion-reaction).
 
 ## Delete team discussion comment reaction
 
@@ -552,7 +552,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-team-discussion-comment-reaction).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-team-discussion-comment-reaction).
 
 ## Delete a reaction (Legacy)
 
@@ -585,7 +585,7 @@ octokit.reactions.deleteLegacy({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#delete-a-reaction-legacy).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#delete-a-reaction-legacy).
 
 ## List reactions for a commit comment
 
@@ -639,7 +639,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-a-commit-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-a-commit-comment).
 
 ## List reactions for an issue
 
@@ -693,7 +693,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-an-issue).
 
 ## List reactions for an issue comment
 
@@ -747,7 +747,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-an-issue-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-an-issue-comment).
 
 ## List reactions for a pull request review comment
 
@@ -801,7 +801,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-a-pull-request-review-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-a-pull-request-review-comment).
 
 ## List reactions for a team discussion comment
 
@@ -861,7 +861,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-a-team-discussion-comment).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-a-team-discussion-comment).
 
 ## List reactions for a team discussion
 
@@ -917,5 +917,5 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/reactions/#list-reactions-for-a-team-discussion).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/reactions/#list-reactions-for-a-team-discussion).
 

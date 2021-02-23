@@ -14,5 +14,5 @@ octokit.emojis.get();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/emojis/#get-emojis).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/emojis/#get-emojis).
 

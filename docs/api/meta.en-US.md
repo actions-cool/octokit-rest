@@ -16,7 +16,7 @@ octokit.meta.get();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/meta/#get-github-meta-information).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/meta/#get-github-meta-information).
 
 ## Get Octocat
 

@@ -67,7 +67,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-code).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-code).
 
 ## Search commits
 
@@ -125,7 +125,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-commits).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-commits).
 
 ## Search issues and pull requests
 
@@ -187,7 +187,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-issues-and-pull-requests).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-issues-and-pull-requests).
 
 ## Search labels
 
@@ -242,7 +242,7 @@ Determines whether the first search result returned is the highest number of mat
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-labels).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-labels).
 
 ## Search repositories
 
@@ -305,7 +305,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-repositories).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-repositories).
 
 ## Search topics
 
@@ -344,7 +344,7 @@ The query contains one or more search keywords and qualifiers. Qualifiers allow 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-topics).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-topics).
 
 ## Search users
 
@@ -403,5 +403,5 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/search/#search-users).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/search/#search-users).
 

@@ -390,7 +390,7 @@ octokit.orgs.get({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#get-an-organization).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#get-an-organization).
 
 ## Get an organization membership for the authenticated user
 
@@ -518,7 +518,7 @@ octokit.orgs.getWebhookConfigForOrg({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs#get-a-webhook-configuration-for-an-organization).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs#get-a-webhook-configuration-for-an-organization).
 
 ## List organizations
 
@@ -554,7 +554,7 @@ Results per page (max 100)
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#list-organizations).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#list-organizations).
 
 ## List app installations for an organization
 
@@ -593,7 +593,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#list-app-installations-for-an-organization).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#list-app-installations-for-an-organization).
 
 ## List users blocked by an organization
 
@@ -699,7 +699,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#list-organizations-for-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#list-organizations-for-the-authenticated-user).
 
 ## List organizations for a user
 
@@ -740,7 +740,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#list-organizations-for-a-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#list-organizations-for-a-user).
 
 ## List organization invitation teams
 
@@ -1466,7 +1466,7 @@ Toggles whether organization members can create private GitHub Pages sites. Can 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs/#update-an-organization).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs/#update-an-organization).
 
 ## Update an organization membership for the authenticated user
 
@@ -1626,5 +1626,5 @@ Determines whether the SSL certificate of the host for `url` will be verified wh
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/orgs#update-a-webhook-configuration-for-an-organization).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/orgs#update-a-webhook-configuration-for-an-organization).
 

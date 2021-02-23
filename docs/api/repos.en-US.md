@@ -351,7 +351,7 @@ octokit.repos.checkVulnerabilityAlerts({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#check-if-vulnerability-alerts-are-enabled-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#check-if-vulnerability-alerts-are-enabled-for-a-repository).
 
 ## Compare two commits
 
@@ -915,7 +915,7 @@ JSON payload with extra information about the webhook event that your action or 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#create-a-repository-dispatch-event).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#create-a-repository-dispatch-event).
 
 ## Create a repository for the authenticated user
 
@@ -1033,7 +1033,7 @@ Whether this repository acts as a template that can be used to generate new repo
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#create-a-repository-for-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#create-a-repository-for-the-authenticated-user).
 
 ## Create a fork
 
@@ -1196,7 +1196,7 @@ Either `true` to allow automatically deleting head branches when pull requests a
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#create-an-organization-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#create-an-organization-repository).
 
 ## Create or update file contents
 
@@ -1479,7 +1479,7 @@ Either `true` to create a new private repository or `false` to create a new publ
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#create-a-repository-using-a-template).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#create-a-repository-using-a-template).
 
 ## Create a repository webhook
 
@@ -1626,7 +1626,7 @@ octokit.repos.delete({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#delete-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#delete-a-repository).
 
 ## Delete access restrictions
 
@@ -2253,7 +2253,7 @@ octokit.repos.disableAutomatedSecurityFixes({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#disable-automated-security-fixes).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#disable-automated-security-fixes).
 
 ## Disable vulnerability alerts
 
@@ -2286,7 +2286,7 @@ octokit.repos.disableVulnerabilityAlerts({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#disable-vulnerability-alerts).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#disable-vulnerability-alerts).
 
 ## Download a repository archive (zip)
 
@@ -2441,7 +2441,7 @@ octokit.repos.enableAutomatedSecurityFixes({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#enable-automated-security-fixes).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#enable-automated-security-fixes).
 
 ## Enable vulnerability alerts
 
@@ -2474,7 +2474,7 @@ octokit.repos.enableVulnerabilityAlerts({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#enable-vulnerability-alerts).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#enable-vulnerability-alerts).
 
 ## Get a repository
 
@@ -2509,7 +2509,7 @@ octokit.repos.get({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#get-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#get-a-repository).
 
 ## Get access restrictions
 
@@ -2661,7 +2661,7 @@ octokit.repos.getAllTopics({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#get-all-repository-topics).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#get-all-repository-topics).
 
 ## Get apps with access to the protected branch
 
@@ -4101,7 +4101,7 @@ octokit.repos.getWebhookConfigForRepo({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos#get-a-webhook-configuration-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos#get-a-webhook-configuration-for-a-repository).
 
 ## List branches
 
@@ -4531,7 +4531,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repository-contributors).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repository-contributors).
 
 ## List deploy keys
 
@@ -4760,7 +4760,7 @@ Only show notifications updated before the given time. This is a timestamp in [I
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repositories-for-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repositories-for-the-authenticated-user).
 
 ## List forks
 
@@ -4860,7 +4860,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-organization-repositories).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-organization-repositories).
 
 ## List repositories for a user
 
@@ -4914,7 +4914,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repositories-for-a-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repositories-for-a-user).
 
 ## List repository invitations
 
@@ -5024,7 +5024,7 @@ octokit.repos.listLanguages({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repository-languages).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repository-languages).
 
 ## List GitHub Pages builds
 
@@ -5096,7 +5096,7 @@ A repository ID. Only return repositories with an ID greater than this ID.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-public-repositories).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-public-repositories).
 
 ## List pull requests associated with a commit
 
@@ -5278,7 +5278,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repository-tags).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repository-tags).
 
 ## List repository teams
 
@@ -5319,7 +5319,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#list-repository-teams).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#list-repository-teams).
 
 ## List repository webhooks
 
@@ -5805,7 +5805,7 @@ An array of topics to add to the repository. Pass one or more topics to _replace
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#replace-all-repository-topics).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#replace-all-repository-topics).
 
 ## Request a GitHub Pages build
 
@@ -6154,7 +6154,7 @@ ID of the team or teams to add to the repository. Teams can only be added to org
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#transfer-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#transfer-a-repository).
 
 ## Update a repository
 
@@ -6263,7 +6263,7 @@ Either `true` to allow automatically deleting head branches when pull requests a
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos/#update-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos/#update-a-repository).
 
 ## Update branch protection
 
@@ -6984,7 +6984,7 @@ Determines whether the SSL certificate of the host for `url` will be verified wh
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/repos#update-a-webhook-configuration-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/repos#update-a-webhook-configuration-for-a-repository).
 
 ## Upload a release asset
 

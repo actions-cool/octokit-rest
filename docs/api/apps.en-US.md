@@ -148,7 +148,7 @@ octokit.apps.createFromManifest({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#create-a-github-app-from-a-manifest).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#create-a-github-app-from-a-manifest).
 
 ## Create an installation access token for an app
 
@@ -346,7 +346,7 @@ The level of permission to grant the access token to manage team discussions and
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#create-an-installation-access-token-for-an-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#create-an-installation-access-token-for-an-app).
 
 ## Delete an app authorization
 
@@ -387,7 +387,7 @@ See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/re
 
 ## Delete an installation for the authenticated app
 
-Uninstalls a GitHub App on a user, organization, or business account. If you prefer to temporarily suspend an app's access to your account's resources, then we recommend the "[Suspend an app installation](https://docs.github.com/v3/apps/#suspend-an-app-installation)" endpoint.
+Uninstalls a GitHub App on a user, organization, or business account. If you prefer to temporarily suspend an app's access to your account's resources, then we recommend the "[Suspend an app installation](https://docs.github.com/rest/reference/apps/#suspend-an-app-installation)" endpoint.
 
 You must use a [JWT](https://docs.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.
 
@@ -416,7 +416,7 @@ installation_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#delete-an-installation-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#delete-an-installation-for-the-authenticated-app).
 
 ## Delete an app token
 
@@ -468,7 +468,7 @@ octokit.apps.getAuthenticated();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-the-authenticated-app).
 
 ## Get an app
 
@@ -499,7 +499,7 @@ octokit.apps.getBySlug({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-an-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-an-app).
 
 ## Get an installation for the authenticated app
 
@@ -532,7 +532,7 @@ installation_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-an-installation-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-an-installation-for-the-authenticated-app).
 
 ## Get an organization installation for the authenticated app
 
@@ -563,7 +563,7 @@ octokit.apps.getOrgInstallation({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-an-organization-installation-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-an-organization-installation-for-the-authenticated-app).
 
 ## Get a repository installation for the authenticated app
 
@@ -598,7 +598,7 @@ octokit.apps.getRepoInstallation({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-a-repository-installation-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-a-repository-installation-for-the-authenticated-app).
 
 ## Get a subscription plan for an account
 
@@ -695,7 +695,7 @@ octokit.apps.getUserInstallation({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#get-a-user-installation-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#get-a-user-installation-for-the-authenticated-app).
 
 ## Get a webhook configuration for an app
 
@@ -711,7 +711,7 @@ octokit.apps.getWebhookConfigForApp();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps#get-a-webhook-configuration-for-an-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps#get-a-webhook-configuration-for-an-app).
 
 ## List accounts for a plan
 
@@ -908,7 +908,7 @@ Only show notifications updated after the given time. This is a timestamp in [IS
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#list-installations-for-the-authenticated-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#list-installations-for-the-authenticated-app).
 
 ## List app installations accessible to the user access token
 
@@ -1460,7 +1460,7 @@ installation_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#suspend-an-app-installation).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#suspend-an-app-installation).
 
 ## Unsuspend an app installation
 
@@ -1493,7 +1493,7 @@ installation_id parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps/#unsuspend-an-app-installation).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps/#unsuspend-an-app-installation).
 
 ## Update a webhook configuration for an app
 
@@ -1539,5 +1539,5 @@ Determines whether the SSL certificate of the host for `url` will be verified wh
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/apps#update-a-webhook-configuration-for-an-app).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/apps#update-a-webhook-configuration-for-an-app).
 

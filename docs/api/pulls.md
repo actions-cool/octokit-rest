@@ -35,7 +35,7 @@ octokit.pulls.checkIfMerged({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#check-if-a-pull-request-has-been-merged).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#check-if-a-pull-request-has-been-merged).
 
 ## Create a pull request
 
@@ -109,7 +109,7 @@ Indicates whether the pull request is a draft. See "[Draft Pull Requests](https:
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#create-a-pull-request).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#create-a-pull-request).
 
 ## Create a reply for a review comment
 
@@ -523,7 +523,7 @@ octokit.pulls.get({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#get-a-pull-request).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#get-a-pull-request).
 
 ## Get a review for a pull request
 
@@ -671,7 +671,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#list-pull-requests).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#list-pull-requests).
 
 ## List comments for a pull request review
 
@@ -771,7 +771,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#list-commits-on-a-pull-request).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#list-commits-on-a-pull-request).
 
 ## List pull requests files
 
@@ -818,7 +818,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#list-pull-requests-files).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#list-pull-requests-files).
 
 ## List requested reviewers for a pull request
 
@@ -1087,7 +1087,7 @@ Merge method to use. Possible values are `merge`, `squash` or `rebase`. Default 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#merge-a-pull-request).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#merge-a-pull-request).
 
 ## Remove requested reviewers from a pull request
 
@@ -1295,7 +1295,7 @@ Indicates whether [maintainers can modify](https://help.github.com/articles/allo
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#update-a-pull-request).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#update-a-pull-request).
 
 ## Update a pull request branch
 
@@ -1337,7 +1337,7 @@ The expected SHA of the pull request's HEAD ref. This is the most recent commit 
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/pulls/#update-a-pull-request-branch).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/pulls/#update-a-pull-request-branch).
 
 ## Update a review for a pull request
 

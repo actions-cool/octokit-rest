@@ -12,7 +12,7 @@ octokit.codesOfConduct.getAllCodesOfConduct();
 
 This endpoint has no parameters
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/codes_of_conduct/#get-all-codes-of-conduct).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/codes_of_conduct/#get-all-codes-of-conduct).
 
 ## Get a code of conduct
 
@@ -39,7 +39,7 @@ octokit.codesOfConduct.getConductCode({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/codes_of_conduct/#get-a-code-of-conduct).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/codes_of_conduct/#get-a-code-of-conduct).
 
 ## Get the code of conduct for a repository
 
@@ -74,5 +74,5 @@ octokit.codesOfConduct.getForRepo({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/codes_of_conduct/#get-the-code-of-conduct-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/codes_of_conduct/#get-the-code-of-conduct-for-a-repository).
 

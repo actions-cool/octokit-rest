@@ -192,7 +192,7 @@ Logins for Users to assign to this issue. _NOTE: Only users with push access can
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#create-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#create-an-issue).
 
 ## Create an issue comment
 
@@ -494,7 +494,7 @@ issue_number parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#get-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#get-an-issue).
 
 ## Get an issue comment
 
@@ -726,7 +726,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#list-issues-assigned-to-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#list-issues-assigned-to-the-authenticated-user).
 
 ## List assignees
 
@@ -1090,7 +1090,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#list-user-account-issues-assigned-to-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#list-user-account-issues-assigned-to-the-authenticated-user).
 
 ## List organization issues assigned to the authenticated user
 
@@ -1169,7 +1169,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#list-organization-issues-assigned-to-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#list-organization-issues-assigned-to-the-authenticated-user).
 
 ## List repository issues
 
@@ -1262,7 +1262,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#list-repository-issues).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#list-repository-issues).
 
 ## List labels for issues in a milestone
 
@@ -1503,7 +1503,7 @@ The reason for locking the issue or pull request conversation. Lock will fail if
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#lock-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#lock-an-issue).
 
 ## Remove all labels from an issue
 
@@ -1710,7 +1710,7 @@ issue_number parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#unlock-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#unlock-an-issue).
 
 ## Update an issue
 
@@ -1782,7 +1782,7 @@ Logins for Users to assign to this issue. Pass one or more user logins to _repla
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/issues/#update-an-issue).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/issues/#update-an-issue).
 
 ## Update an issue comment
 

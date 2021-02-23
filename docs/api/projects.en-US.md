@@ -156,7 +156,7 @@ Body of the project
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#create-a-user-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#create-a-user-project).
 
 ## Create an organization project
 
@@ -196,7 +196,7 @@ The description of the project.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#create-an-organization-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#create-an-organization-project).
 
 ## Create a repository project
 
@@ -240,7 +240,7 @@ The description of the project.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#create-a-repository-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#create-a-repository-project).
 
 ## Delete a project
 
@@ -269,7 +269,7 @@ octokit.projects.delete({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#delete-a-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#delete-a-project).
 
 ## Delete a project card
 
@@ -356,7 +356,7 @@ octokit.projects.get({
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#get-a-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#get-a-project).
 
 ## Get a project card
 
@@ -619,7 +619,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#list-organization-projects).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#list-organization-projects).
 
 ## List repository projects
 
@@ -667,7 +667,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#list-repository-projects).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#list-repository-projects).
 
 ## List user projects
 
@@ -709,7 +709,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#list-user-projects).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#list-user-projects).
 
 ## Move a project card
 
@@ -871,7 +871,7 @@ Whether or not this project can be seen by everyone.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/projects/#update-a-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/projects/#update-a-project).
 
 ## Update an existing project card
 

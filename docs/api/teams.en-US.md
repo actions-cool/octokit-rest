@@ -106,7 +106,7 @@ Default: the team's `permission` attribute will be used to determine what permis
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#add-or-update-team-project-permissions).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#add-or-update-team-project-permissions).
 
 ## Add or update team repository permissions
 
@@ -165,7 +165,7 @@ If no permission is specified, the team's `permission` attribute will be used to
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#add-or-update-team-repository-permissions).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#add-or-update-team-repository-permissions).
 
 ## Check team permissions for a project
 
@@ -206,7 +206,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#check-team-permissions-for-a-project).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#check-team-permissions-for-a-project).
 
 ## Check team permissions for a repository
 
@@ -255,7 +255,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#check-team-permissions-for-a-repository).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#check-team-permissions-for-a-repository).
 
 ## Create a team
 
@@ -332,7 +332,7 @@ The ID of a team to set as the parent team.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#create-a-team).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#create-a-team).
 
 ## Create a discussion comment
 
@@ -562,7 +562,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#delete-a-team).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#delete-a-team).
 
 ## Get a team by name
 
@@ -599,7 +599,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#get-a-team-by-name).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#get-a-team-by-name).
 
 ## Get a discussion comment
 
@@ -769,7 +769,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#list-teams).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#list-teams).
 
 ## List child teams
 
@@ -816,7 +816,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#list-child-teams).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#list-child-teams).
 
 ## List discussion comments
 
@@ -958,7 +958,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#list-teams-for-the-authenticated-user).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#list-teams-for-the-authenticated-user).
 
 ## List team members
 
@@ -1107,7 +1107,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#list-team-projects).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#list-team-projects).
 
 ## List team repositories
 
@@ -1154,7 +1154,7 @@ Page number of the results to fetch.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#list-team-repositories).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#list-team-repositories).
 
 ## Remove team membership for a user
 
@@ -1240,7 +1240,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#remove-a-project-from-a-team).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#remove-a-project-from-a-team).
 
 ## Remove a repository from a team
 
@@ -1285,7 +1285,7 @@ team_slug parameter
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#remove-a-repository-from-a-team).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#remove-a-repository-from-a-team).
 
 ## Update a discussion comment
 
@@ -1458,5 +1458,5 @@ The ID of a team to set as the parent team.
   </tbody>
 </table>
 
-See also: [GitHub Developer Guide documentation](https://docs.github.com/v3/teams/#update-a-team).
+See also: [GitHub Developer Guide documentation](https://docs.github.com/rest/reference/teams/#update-a-team).
 
